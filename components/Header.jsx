@@ -7,7 +7,7 @@ class Header extends Component {
 
     render() {
         return (
-            <header className='border-solid border-2 border-black w-full text-center bg-gray-400 rounded-lg'>
+            <header id='header'>
                 Header
             </header>
         );
