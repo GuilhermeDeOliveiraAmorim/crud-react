@@ -7,11 +7,9 @@ class Header extends Component {
 
     render() {
         return (
-            <footer>
-                <div>
-                    <h3>Header</h3>
-                </div>
-            </footer>
+            <header className='border-solid border-2 border-black w-full text-center bg-gray-400 rounded-lg'>
+                Header
+            </header>
         );
     }
 }

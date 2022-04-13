@@ -7,10 +7,8 @@ class Footer extends Component {
 
     render() {
         return (
-            <footer>
-                <div>
-                    <h3>Footer</h3>
-                </div>
+            <footer className='absolute bottom-0 border-solid border-2 border-black w-full text-center bg-gray-400 rounded-lg'>
+                Footer
             </footer>
         );
     }
